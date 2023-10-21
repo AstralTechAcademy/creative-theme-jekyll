@@ -51,6 +51,21 @@ p {
     color: white;
 }
 
+.bg-green {
+    background-color: $color-green;
+    color: white;
+}
+
+.bg-blue {
+    background-color: $color-blue;
+    color: white;
+}
+
+.bg-pink {
+    background-color: white;
+    color: $color-pink;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
@@ -155,7 +170,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/back.jpeg');
     text-align: center;
     color: white;
     .header-content {
@@ -287,6 +302,14 @@ header {
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
+}
+
+.text-orange {
+    color: white;
+}
+
+.text-pink {
+    color: $color-pink;
 }
 
 .no-gutter > [class*='col-'] {
